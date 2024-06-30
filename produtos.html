@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Sorveteria GODOI - Produtos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Sorveteria GODOI - Produtos</h1>
+
+  <h2>Sorvetes</h2>
+
+  <ul>
+    <li>Chocolate</li>
+    <li>Morango</li>
+    <li>Baunilha</li>
+    <li>Pistache</li>
+    <li>Caramelo</li>
+    <li>Cheesecake</li>
+  </ul>
+
+  <h2>Coberturas</h2>
+
+  <ul>
+    <li>Granulado</li>
+    <li>Calda de chocolate</li>
+    <li>Nozes</li>
+  </ul>
+
+  <h2>Tamanhos</h2>
+
+  <ul>
+    <li>Pequeno (1 bola)</li>
+    <li>Médio (2 bolas)</li>
+    <li>Grande (3 bolas)</li>
+  </ul>
+
+  <h2>Formulário de pedido</h2>
+
+  <form>
+    <label for="sabor">Sabor:</label>
+    <select name="sabor">
+      <option value="chocolate">Chocolate</option>
+      <option value="morango">Morango</option>
+      <option value="baunilha">Baunilha</option>
+      <option value="pistache">Pistache</option>
+      <option value="caramelo">Caramelo</option>
+      <option value="cheesecake">Cheesecake</option>
+    </select>
+
+    <label for="cobertura">Cobertura:</label>
+    <select name="cobertura">
+      <option value="nenhuma">Nenhuma</option>
+      <option value="granulado">Granulado</option>
+      <option value="calda_chocolate">Calda de chocolate</option>
+      <option value="nozes">Nozes</option>
+    </select>
+
+    <label for="tamanho">Tamanho:</label>
+    <select name="tamanho">
+      <option value="pequeno">Pequeno (1 bola)</option>
+      <option value="medio">Médio (2 bolas)</option>
+      <option value="grande">Grande (3 bolas)</option>
+    </select>
+
+    <label for="quantidade">Quantidade:</label>
+    <input type="number" name="quantidade" min="1" value="1">
+
+    <input type="submit" value="fazer pedido"">
+  </form>
+</body>
+</html>

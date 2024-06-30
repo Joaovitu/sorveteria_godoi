@@ -1,4 +1,57 @@
-html {
-  height: 100%;
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select, input {
   width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 5px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.image {
+  width: 50%;
+}
+
+.image img {
+  width: 100%;
+}
+
+.text {
+  width: 50%;
 }
